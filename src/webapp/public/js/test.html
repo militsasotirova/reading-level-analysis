@@ -1,0 +1,278 @@
+<html>
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Dialog - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+<style>
+<!--
+
+td           { font-family: "Open Sans",sans-serif; font-size: 12px }
+a            { font-family: "Open Sans",sans-serif; font-size: 12px; text-decoration: none }
+
+a:hover		{ text-decoration:underline; }
+span.x2      { font-size: 9px; font-family: "Open Sans",sans-serif }
+select { font-family: "Open Sans",sans-serif; font-size: 10px }
+
+-->
+.auto-style1
+{
+	border-collapse: collapse;
+	border: 1px solid #B3B3FF;
+}
+.auto-style2
+{
+	border: 1px solid #B3B3FF;
+}
+
+</style>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4709169-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<script>
+
+var bajb_backdetect={Version:'1.0.0',Description:'Back Button Detection',Browser:{IE:!!(window.attachEvent&&!window.opera),Safari:navigator.userAgent.indexOf('Apple')>-1,Opera:!!window.opera},FrameLoaded:0,FrameTry:0,FrameTimeout:null,OnBack:function(){alert('Back Button Clicked')},BAJBFrame:function(){var BAJBOnBack=document.getElementById('BAJBOnBack');if(bajb_backdetect.FrameLoaded>1){if(bajb_backdetect.FrameLoaded==2){bajb_backdetect.OnBack();history.back()}}bajb_backdetect.FrameLoaded++;if(bajb_backdetect.FrameLoaded==1){if(bajb_backdetect.Browser.IE){bajb_backdetect.SetupFrames()}else{bajb_backdetect.FrameTimeout=setTimeout("bajb_backdetect.SetupFrames();",700)}}},SetupFrames:function(){clearTimeout(bajb_backdetect.FrameTimeout);var BBiFrame=document.getElementById('BAJBOnBack');var checkVar=BBiFrame.src.substr(-11,11);if(bajb_backdetect.FrameLoaded==1&&checkVar!="HistoryLoad"){BBiFrame.src="blank.html?HistoryLoad"}else{if(bajb_backdetect.FrameTry<2&&checkVar!="HistoryLoad"){bajb_backdetect.FrameTry++;bajb_backdetect.FrameTimeout=setTimeout("bajb_backdetect.SetupFrames();",700)}}},SafariHash:'false',Safari:function(){if(bajb_backdetect.SafariHash=='false'){if(window.location.hash=='#b'){bajb_backdetect.SafariHash='true'}else{window.location.hash='#b'}setTimeout("bajb_backdetect.Safari();",100)}else if(bajb_backdetect.SafariHash=='true'){if(window.location.hash==''){bajb_backdetect.SafariHash='back';bajb_backdetect.OnBack();history.back()}else{setTimeout("bajb_backdetect.Safari();",100)}}},Initialise:function(){if(bajb_backdetect.Browser.Safari){setTimeout("bajb_backdetect.Safari();",600)}else{document.write('<iframe src="blank.html" style="display:none;" id="BAJBOnBack" onunload="alert(\'de\')" onload="bajb_backdetect.BAJBFrame();"></iframe>')}}};bajb_backdetect.Initialise();
+bajb_backdetect.OnBack = function()
+{
+alert('To search again, DO NOT click the back button.\nJust click on the SEARCH tab above.\n \nFor more information, click on the question mark (in the circle) above.');
+
+// top.controller.document.all.mycell1.style.backgroundColor='#8FB5DA';
+// top.controller.document.all.mycell2.style.backgroundColor='#CFDFEF';
+// top.controller.document.all.mycell3.style.backgroundColor='#CFDFEF';
+// top.controller.document.all.mycell4.style.backgroundColor='#CFDFEF';
+// top.controller.document.all.label1.style.fontWeight = "bold";
+// top.controller.document.all.label2.style.fontWeight = "normal";
+// top.controller.document.all.label3.style.fontWeight = "normal";
+// top.controller.document.all.label4.style.fontWeight = "normal";
+// top.document.getElementById('myFrames').cols="*,0,0,0";
+
+top.controller.document.all.link_problems.href='generalHelp.asp?h=3';
+top.controller.document.all.img_problems.style = "border: 4px solid red; padding: 3px";
+}
+</script>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- Begin
+var checkflag = "false";
+function check1(field) {
+if (checkflag == "false") {
+for (i = 0; i < field.length; i++) {
+field[i].checked = true;}
+checkflag = "true";
+return "Uncheck All"; }
+else {
+for (i = 0; i < field.length; i++) {
+field[i].checked = false; }
+checkflag = "false";
+return "Check All"; }
+}
+//  End -->
+</script>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var checkflag = "false";
+function check2(field) {
+if (checkflag == "false") {
+for (i = 0; i < field.length; i++) {
+field[i].checked = true;}
+checkflag = "true";
+return "Uncheck All"; }
+else {
+for (i = 0; i < field.length; i++) {
+field[i].checked = false; }
+checkflag = "false";
+return "Check All"; }
+}
+//  End -->
+</script>
+
+
+
+<SCRIPT LANGUAGE="JavaScript">
+
+function syn(x)
+{
+top.x1.document.zabba.p.value = '=' + x;
+top.x1.document.zabba.submit();
+}
+
+function loader()
+{
+top.controller.document.all.label2.innerHTML='FREQUENCY';
+top.controller.document.all.mycell2.style.backgroundColor='#8FB5DA';
+top.controller.document.all.mycell1.style.backgroundColor='#CFDFEF';
+top.controller.document.all.mycell3.style.backgroundColor='#CFDFEF';
+top.controller.document.all.mycell4.style.backgroundColor='#CFDFEF';
+top.controller.document.all.label2.style.fontWeight = "bold";
+top.controller.document.all.label1.style.fontWeight = "normal";
+top.controller.document.all.label3.style.fontWeight = "normal";
+top.controller.document.all.label4.style.fontWeight = "normal";
+top.document.getElementById('myFrames').cols="0,*,0,0";
+
+
+
+}
+
+function see_help1e()
+{
+top.controller.document.all.mycell1.style.backgroundColor='#8FB5DA';
+top.controller.document.all.mycell2.style.backgroundColor='#CFDFEF';
+top.controller.document.all.mycell3.style.backgroundColor='#CFDFEF';
+top.controller.document.all.mycell4.style.backgroundColor='#CFDFEF';
+top.controller.document.all.label1.style.fontWeight = "bold";
+top.controller.document.all.label2.style.fontWeight = "normal";
+top.controller.document.all.label3.style.fontWeight = "normal";
+top.controller.document.all.label4.style.fontWeight = "normal";
+top.document.getElementById('myFrames').cols="*,0,0,0";
+
+
+top.x4.document.all.w_listx.innerHTML = ": customized word lists";
+top.x4.document.all.help1_.style.display = 'none';
+top.x4.document.all.help1a.style.display = 'none';
+top.x4.document.all.help1b.style.display = 'none';
+top.x4.document.all.help1c.style.display = 'none';
+top.x4.document.all.help1d.style.display = 'none';
+top.x4.document.all.help1e.style.display = 'none';
+top.x4.document.all.help1e_.style.display = 'inline';
+top.x4.document.all.help1f.style.display = 'none';
+}
+
+function see_help1b()
+{
+top.controller.document.all.mycell1.style.backgroundColor='#8FB5DA';
+top.controller.document.all.mycell2.style.backgroundColor='#CFDFEF';
+top.controller.document.all.mycell3.style.backgroundColor='#CFDFEF';
+top.controller.document.all.mycell4.style.backgroundColor='#CFDFEF';
+top.controller.document.all.label1.style.fontWeight = "bold";
+top.controller.document.all.label2.style.fontWeight = "normal";
+top.controller.document.all.label3.style.fontWeight = "normal";
+top.controller.document.all.label4.style.fontWeight = "normal";
+top.document.getElementById('myFrames').cols="*,0,0,0";
+
+
+top.x4.document.all.w_listx.innerHTML = ": part of speech";
+top.x4.document.all.help1_.style.display = 'none';
+top.x4.document.all.help1a.style.display = 'none';
+top.x4.document.all.help1b.style.display = 'inline';
+top.x4.document.all.help1c.style.display = 'none';
+top.x4.document.all.help1d.style.display = 'none';
+top.x4.document.all.help1e.style.display = 'none';
+top.x4.document.all.help1e_.style.display = 'none';
+top.x4.document.all.help1f.style.display = 'none';
+}
+
+function changeSort(x)
+{
+if (x == 'FREQUENCY')
+{
+top.x1.document.zabba.sortBy.options[1].selected = false;
+top.x1.document.zabba.sortBy.options[0].selected = true;
+}
+else
+{
+top.x1.document.zabba.sortBy.options[0].selected = false;
+top.x1.document.zabba.sortBy.options[1].selected = true;
+}
+top.x1.document.zabba.submit()
+}
+
+</script>
+
+</head>
+
+
+<body onload="javascript:loader()">
+
+<form target="x3" method="POST" action="x3.asp">
+<input type="hidden" name="action" value="lots">
+<input type="hidden" name="fromX2" value="y">
+<input type="hidden" name="wl" value="4">
+<input type="hidden" name="wr" value="4">
+
+<input type="hidden" name="r" value="">
+
+
+<table width="100%">
+<tr>
+<td>
+
+
+<span ID="w_seeContextLong" name="w_seeContextLong">
+
+<span ID="w_seeContextLong" name="w_seeContextLong">SEE CONTEXT: CLICK ON WORD</span>
+
+</span>
+
+&nbsp;&nbsp;<a target="x4" ID="url1" href="/help/display_table_simple.asp">[<span name="w_help" ID="w_help">HELP</span>...]</a>
+
+</td>
+<td align="right"><a target="x4" ID="URLcompare" href="/help/changeCorpus.asp"><span ID="w_compare">COMPARE</span></a></td>
+</tr>
+</table>
+<table width="100%" class="auto-style1" cellpadding="3" cellspacing="0" border="1">
+<tr>
+<td align="center" width="8%" class="auto-style2" bgcolor="#5B92C8">
+
+&nbsp;
+</td>
+
+<td class="auto-style2" valign="top" align="center" bgcolor="#5B92C8">
+<input type="checkbox" name="C2" value="ON" onClick="this.value=check2(this.form.dox)"></font></td>
+<td class="auto-style2" valign="top" align="left" bgcolor="#5B92C8"><font color="#FFFFFF"><input type="submit" value="CONTEXT" ID="button3" name="button3"></font></td>
+<td class="auto-style2" valign="middle" align="center" bgcolor="#5B92C8"><font color="#FFFFFF">FREQ</font>
+
+</td>
+
+<td class="auto-style2" nowrap bgcolor="#5B92C8" align="center" valign="top" style="background-color: #5B92C8">&nbsp;</td>
+
+</tr>
+
+
+
+<tr>
+<td class="auto-style2" align= "center">1</td>
+<td class="auto-style2" align="center"><input type="checkbox" name="dox" value="11:lunch "></td>
+<td class="auto-style2" nowrap align="left">&nbsp;<a target="x3" href="x3.asp?xx=1&w11=lunch&r=">LUNCH </a>
+
+</td>
+<td class="auto-style2" align="center" bgcolor="#D7E3FF"><font color="#003399">
+30094
+</td>
+
+<td nowrap class="auto-style2" nowrap align="left" width="60" bgcolor="#D7E3FF">
+<a target="x3" href="x3.asp?xx=1&w11=lunch&r=">
+<img border="0" src="k.jpg" width="160" height="10"></a>
+</td>
+
+
+</tr>
+
+</form>
+
+
+</table>
+
+<table width="100%" border="0">
+<tr>
+<td class="auto-style2" align="left"><a target = "x4" href="numhits.asp"></a></td>
+<td class="auto-style2" align="right"><font color="#C0C0C0">1.000&nbsp;seconds</font></td>
+</tr></table>
+</body>
+</html>

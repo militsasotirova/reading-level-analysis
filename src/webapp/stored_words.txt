@@ -1,0 +1,339 @@
+gaily 499
+bedight 5
+galant 111
+knight 11547
+sunshine 59746
+shadow 125612
+journeyed 3102
+singing 225967
+song 813375
+search 928169
+grew 418381
+old 2125856
+bold 149774
+over 10974629
+heart 971066
+fell 772395
+found 3524151
+spot 942817
+ground 990307
+looked 1076541
+rule 534528
+rhythm 93600
+prose 20527
+intricate 42382
+here 4130732
+too 4563889
+group 3138886
+phrase 122296
+prefer 319352
+greatly 167400
+longer 1184442
+much 6643563
+nonchalantly 3485
+uttered 16054
+verse 44759
+only 9826267
+greater 743069
+interval 84534
+continuous 144915
+sound 943261
+between 5020542
+pause 70052
+very 6642998
+reason 1438820
+linked 369145
+readily 85954
+summary 97519
+enunciation 776
+still 6031036
+strict 128555
+analogue 22459
+successive 76071
+must 2369459
+differ 81705
+openly 111622
+length 299634
+scansion 43
+suggest 583046
+measure 491264
+hand 1404566
+rhythmical 632
+metrical 311
+anything 1713581
+therefore 464906
+whenever 190161
+happened 925401
+wanted 1510585
+know 5034178
+asked 1712758
+dine 23030
+honoured 39345
+few 1483426
+invitation 78393
+daughter 665925
+excellent 586818
+audience 662223
+usually 884865
+came 2785149
+himself 1286283
+instead 1371063
+sending 318060
+sister 356299
+dictated 24165
+condition 495463
+chosen 287272
+evening 374627
+because 6748779
+young 1962967
+man 2572876
+uncongenial 133
+got 3898280
+capitally 49
+club 1306385
+anecdotist 0
+sometimes 778522
+felt 953188
+tendency 84233
+weigh 84922
+evidence 1062816
+lady 177759
+family 2892679
+never 3403058
+showed 1292403
+liked 289728
+think 5515266
+during 4968659
+terrible 287279
+flood 159284
+danger 233906
+really 4978173
+last 4037921
+imprisonment 44091
+just 12469814
+flown 61230
+sat 291517
+branch 195825
+tree 290432
+comfort 228445
+told 3535699
+story 1852373
+aunt 41053
+once 1720572
+laid 231738
+seagull 2515
+egg 156210
+mistake 281647
+went 2552616
+rather 1770618
+sentence 266395
+until 2634052
+listening 254287
+window 443416
+without 3434135
+hope 1385948
+sleep 381240
+quietly 113622
+naturally 189314
+slipping 46633
+slowly 267268
+towards 943425
+hanging 193940
+toe 58169
+moment 988994
+luckily 24503
+sudden 130702
+loud 181424
+squawk 1167
+being 7221097
+woke 58852
+gave 1313032
+jerk 31062
+back 7582390
+safety 1031973
+say 4284065
+interesting 927944
+well 6991847
+imagine 411911
+joy 159645
+saw 1570616
+good 6617324
+ship 350021
+coming 2014857
+sea 390349
+rescue 235290
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+peep 9301
+cautiously 22959
+bed 360837
+off 6289481
+thought 1837187
+n't 280
+nearer 15370
+sure 2104910
+hear 809643
+hefalumping 0
+'' 12178
+oh 136988
+dear 68330
+run 2701165
+away 3004054
+somehow 260975
+having 2741155
+near 1570166
+heffalump 30
+crept 14969
+side 2407152
+trying 1810312
+head 1999777
+shook 48229
+tightly 57565
+stuck 314605
+
+climbed 112931
+gathered 223012
+apple 123507
+carried 473716
+happy 942716
+stayed 263464
+sad 283684
+climb 142911
+trunk 43302
+swing 215016
+am 2024074
+busy 421915
+want 4473858
+keep 2592043
+me 6344785
+warm 346563
+wife 884423
+child 1117572
+need 5057995
+give 2719995
+house 1556924
+forest 181669
+cut 1331578
+build 1193743
+boy 501121
+hardly 259329
+speak 527524
+whispered 10911
+play 3813276
+boat 292548
+take 5427044
+far 2678996
+\ 312851
+sail 47122
+sailed 35951
+
+walk 687387
+home 4735617
+company 5449538
+lone 90326
+anyway 353155
+except 427697
+watch 1122035
+movie 1033069
+undisturbed 5531
+live 1800626
+actor 422975
+someone 1722933
+'s 76807117
+kind 1759158
+uncomfortable 119179
+read 1360456
+book 1326686
+shoulder 266707
+different 3516104
+mean 1462216
+brother 485081
+crack 149786
+oldest 125129
+work 6010601
+hard 2027649
+interested 615066
+drawing 228403
+picture 682288
+nobody 268064
+our 9679591
+gang 169367
+dig 114567
+while 6830018
+person 1698682
+world 4366241
+loned 2
